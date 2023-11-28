@@ -1,6 +1,6 @@
-Rooted
+<u>Project Name:</u> Rooted
 
-Project Description: 
+<u>Project Description:</u>
 
 Rooted is a site with a meditaion timer. You can choose the time and press play/stop. Then each of the leaves can change the time.
 As the time progresses the leaves change based on a prechosen set of sub times. When the timer is done there is an alert and sound. At the bottom the 
@@ -18,7 +18,7 @@ utilized methods of doing what I did, but it is my first project including Javas
 * as the timer starts initially, but never after, when the user presses play a sound occurs
 * make the formatting for iphone and potentially tablet.
 
-How to install and run the project:
+<u>How to install and run the project:</u>
 
 1. install the project files
 2. go to the file
@@ -26,7 +26,7 @@ How to install and run the project:
 4. click open with (desired browser)
 5. That is the project.
 
-How to use the project:
+<u>How to use the project:</u>
 
 1. Start up the web-page as described above (How to install and run the project).
 2. Select a time from the 3 min, 5 min, and 10 min options. (if you dont and start timer away an alert will appear prompting the user to choose a time)
@@ -37,15 +37,15 @@ How to use the project:
 6. If you scroll down the page, you will find 3 different headers with symbols beside them. If clicked, the header clicked's article will appear and the others
    will hide.
 
-How to contribute to the project:
+<u>How to contribute to the project:</u>
 
 You wont be able to, this was supposed to be a project to help me learn javascript. Thank you for trying though.
 
-Credits:
+<u>Credits:</u>
 
 BenWrightSWE (Benjamin Wright)
 
-License: 
+<u>License:</u>
 
 (None) (Copyright)
 
