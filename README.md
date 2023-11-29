@@ -18,7 +18,6 @@ My main challenges included:
 What features I hope to add:
 * after the timer ends, it displays a sound
 * as the timer starts initially, but never after, when the user presses play a sound occurs
-* make the formatting for iphone and potentially tablet.
 
 Current Problems:
 * Responsiveness breaks under 278 pixels in width. (Didn't think it was worth implimenting; no one uses that)
