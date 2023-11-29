@@ -15,10 +15,14 @@ My main challenges included:
 * When trying to make a condition for a symbol, the javascript version of the symbol and the symbol gotten from the input wasn't the same
   text wise even when they were symbol wise. (fixed with the conditionSymbol id in the HTML which is called when it's needed in the Javascript)
 
-What features I hope to add
+What features I hope to add:
 * after the timer ends, it displays a sound
 * as the timer starts initially, but never after, when the user presses play a sound occurs
 * make the formatting for iphone and potentially tablet.
+
+Current Problems:
+* Responsiveness breaks under 278 pixels in width. (Didn't think it was worth implimenting; no one uses that)
+* On touch input devices the hidden text doesnt go away after clicked.
 
 How to install and run the project:
 
