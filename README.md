@@ -22,6 +22,7 @@ What features I hope to add:
 Current Problems:
 * Responsiveness breaks under 278 pixels in width. (Didn't think it was worth implimenting; no one uses that)
 * On touch input devices the hidden text doesnt go away after clicked.
+* Timer ends at 0:01
 
 How to install and run the project:
 
