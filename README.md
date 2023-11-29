@@ -53,6 +53,4 @@ BenWrightSWE (Benjamin Wright)
 
 License:
 
-(None) (Copyright)
-
 Rooted © 2023 Benjamin Wright
