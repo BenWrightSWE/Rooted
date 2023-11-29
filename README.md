@@ -9,11 +9,13 @@ page it has a dropdown style article that allows the user to understand how and 
 I used the technologies I did due to it being the first solution I could come up with. I do not know if these are the most efficient or even remotely 
 utilized methods of doing what I did, but it is my first project including Javascript. 
 
-- My main challenges included:
+My main challenges included:
 * When I stopped the timer and tried restarting it, it created a new timer and they would consistently switch being the timers set.
 * When I was trying to change the color of the "leaves" of the tree, after the initial change, it wouldn't allow the hover change to occur.
+* When trying to make a condition for a symbol, the javascript version of the symbol and the symbol gotten from the input wasn't the same
+  text wise even when they were symbol wise. (fixed with the symbolNeeded1 id and ymbolNeeded2 id)
 
-- What features I hope to add
+What features I hope to add
 * after the timer ends, it displays a sound
 * as the timer starts initially, but never after, when the user presses play a sound occurs
 * make the formatting for iphone and potentially tablet.
