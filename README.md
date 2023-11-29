@@ -13,7 +13,7 @@ My main challenges included:
 * When I stopped the timer and tried restarting it, it created a new timer and they would consistently switch being the timers set.
 * When I was trying to change the color of the "leaves" of the tree, after the initial change, it wouldn't allow the hover change to occur.
 * When trying to make a condition for a symbol, the javascript version of the symbol and the symbol gotten from the input wasn't the same
-  text wise even when they were symbol wise. (fixed with the symbolNeeded1 id and ymbolNeeded2 id)
+  text wise even when they were symbol wise. (fixed with the conditionSymbol id in the HTML which is called when it's needed in the Javascript)
 
 What features I hope to add
 * after the timer ends, it displays a sound
