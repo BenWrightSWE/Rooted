@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>Rooted</title>
+        <link rel="icon" href="images/rootedLogo.png" type="image/x-icon" />
+
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta name="author" content="Chris Mills" />
+        <meta name="description" content="A meditaiton timer that looks like a tree going through the seasons" />
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>R O O T E D</h1>
+        </header>
+        <main>
+            <div class="main-grid-container">
+                <div class="main-grid-item hiddenPhone"></div>
+                <div class="main-grid-item leafes-grid-container">
+                    <div class="leaf-grid-item">
+                        <button class="leafChange" id="leaf8" onclick="timeChange(8); changeLeafsPaused(8);"><span class="leafText" id="hiddenText8">8/8</span></button>
+                    </div>
+                    <div class="leaf-grid-item">
+                        <button class="leafChange" id="leaf1" onclick="timeChange(1); changeLeafsPaused(1);"><span class="leafText" id="hiddenText1">1/8</span></button>
+                    </div>
+                    <div class="leaf-grid-iteme">
+                        <button class="leafChange" id="leaf2" onclick="timeChange(2); changeLeafsPaused(2);"><span class="leafText" id="hiddenText2">2/8</span></button>
+                    </div>
+                    <div class="leaf-grid-item">
+                        <button class="leafChange" id="leaf7" onclick="timeChange(7); changeLeafsPaused(7);"><span class="leafText" id="hiddenText7">7/8</span></button>
+                    </div>
+                    <div class="leaf-grid-item">
+                        <button id="play" onclick="pausePlay();">&#9658</button>
+                    </div>
+                    <div class="leaf-grid-item">
+                        <button class="leafChange" id="leaf3" onclick="timeChange(3); changeLeafsPaused(3);"><span class="leafText" id="hiddenText3">3/8</span></button>
+                    </div>
+                    <div class="leaf-grid-item">
+                        <button class="leafChange" id="leaf6" onclick="timeChange(6); changeLeafsPaused(6);"><span class="leafText" id="hiddenText6">6/8</span></button>
+                    </div>
+                    <div class="leaf-grid-item">
+                        <button class="leafChange" id="leaf5" onclick="timeChange(5); changeLeafsPaused(5);"><span class="leafText" id="hiddenText5">5/8</span></button>
+                    </div>
+                    <div class="leaf-grid-item">
+                        <button class="leafChange" id="leaf4" onclick="timeChange(4); changeLeafsPaused(4);"><span class="leafText" id="hiddenText4">4/8</span></button>
+                    </div>
+                </div>
+                <div class="main-grid-item hiddenPhone"></div>
+                <div class="main-grid-item hiddenPhone"></div>
+                <div class="main-grid-item timeChoice-grid-container">
+                    <div class="timeChoice-grid-item"></div>
+                    <div class="timeChoice-grid-item" id="timerLength">
+                        <h2 id="time">Timer</h2>
+                    </div>
+                    <div class="timeChoice-grid-item"></div>
+                    <div class="timeChoice-grid-item">
+                        <button class="timeChoice" id="min3" onclick="min3()">3 min</h3>
+                    </div>
+                    <div class="timeChoice-grid-item">
+                        <button class="timeChoice" id="min5" onclick="min5()">5 min</button>
+                    </div>
+                    <div class="timeChoice-grid-item">
+                        <button class="timeChoice" id="min10" onclick="min10()">10 min</button>
+                    </div>
+                </div>
+                <div class="main-grid-item hiddenPhone"></div>
+            </div>
+            <!-- The javascript version of a symbol wasn't the same as the one gotten from the HTML. These are hidden and gotten when needed to use for the condition. -->
+            <div id="conditionSymbol">&#9658</div>
+        </main>
+        <footer>
+            <section id="footerText">
+                <h2 id="footerH2Header">Meditation</h2>
+                <article>
+                    <h3 class="footerH3Headers"><button class="headerButton" onclick="openCloseArticles(1)">How do I Meditate <span id="header1Symbol">&#11033;</span></button></h3>
+                    <div id="footerParagraph1">
+                        <p>Meditation comes in many forms but the most common one is called "Mindfulness
+                        Meditation". As stated in the book "What the Buddha Taught", mindfulness meditation
+                        happens through a series of steps:</p>
+                        <br class="brBetweenSubSection">
+                        <ol>
+                            <li>One should sit cross legged, keeping the body erect (strait), but not stiff,
+                                 and mindfulness alert. If unable to sit cross legged, one can sit on a chair 
+                                 in a similar fashion.
+                            </li>
+                            <br>
+                            <li>Once seated, one may place their hands comfortably on their lap and choose 
+                                between closing their eyes and gazing at the top of their nose.
+                            </li>
+                            <br>
+                            <li>Then, breath in and out as usual with no effort or strain. Bring one's mind to
+                                concentrate on the breath. Let your mind observe the breath, but only to be aware
+                                of them rather than to think about them (side not: from my experience, awareness
+                                is the observation without thought, you can notice something without thinking of it;
+                                that is what you're aiming for).
+                            </li>
+                            <br>
+                            <li>Forget all things, your surrounding, your envrionment, and everything else outside of
+                                your breath. Do not raise your eyes and look at anything. Attempt to do this for 5 to 10
+                                minutes at a time.
+                            </li>
+                        </ol>
+                        <br class="brBetweenSubSection">
+                        <p>Disclaimer: This is hard for a person to do. Do not expect to be able to focus on your breath the
+                        whole time off the bat. It is normal for your mind to wander. Over time though you will gain the 
+                        ability to do this task for increasing amounts of time. With this you will gain the benefits of 
+                        meditation.</p>
+                    </div>
+                </article>
+                <br>
+                <article>
+                    <h3 class="footerH3Headers"><button class="headerButton" onclick="openCloseArticles(2)">Benefits of Meditation <span id="header2Symbol">&#11031;</span></button></h3>
+                    <p id="footerParagraph2"> Summarized from what is stated in "What the Buddha Taught", the exercise of mindfulness meditation 
+                        is meant to develop concentration. Apart from this, it is good for your physical health, for relaxation,
+                        sound sleep, and efficiency in your daily work. It makes you calm and tranquil. Even at moments when you
+                        are nervous or excited, if you practice this for a couple of minutes, you will see for yourself that you
+                        will become immediately quiet and at peace.
+                    </p>
+                </article>
+                <br>
+                <article>
+                    <h3 class="footerH3Headers"><button class="headerButton" onclick="openCloseArticles(3)">Guided Meditation Resources <span id="header3Symbol">&#11031;</span></button></h3>
+                    <p id="footerParagraph3">There are numerous different guided meditation resources availible online, but the ones I've personally enjoyed
+                        in the past are Medito and "Waking Up" by Sam Harris. Medito is an amazing meditation app that you can find on 
+                        the IOS app store, which I highly recommend and have used A LOT in the past. "Waking Up" by Sam Harris is a
+                        series on youtube or an app you can download. Although I only used it a few times in the past, the meditaion
+                        sessions went well.
+                    </p>
+                </article>
+            </article>
+        </footer>
+    </body>
+</html>
