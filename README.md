@@ -16,8 +16,7 @@ My main challenges included:
   text wise even when they were symbol wise. (fixed with the conditionSymbol id in the HTML which is called when it's needed in the Javascript)
 
 What features I hope to add:
-* after the timer ends, it displays a sound
-* as the timer starts initially, but never after, when the user presses play a sound occurs
+* I dont plan to add any more to this project.
 
 Current Problems:
 * Responsiveness breaks under 278 pixels in width. (Didn't think it was worth implimenting; no one uses that)
